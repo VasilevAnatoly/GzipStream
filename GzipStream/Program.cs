@@ -14,15 +14,6 @@ namespace GzipStream
 
             try
             {
-                args = new string[3];
-                //args[0] = @"compress";
-                //args[1] = @"CLR.pdf";
-                //args[2] = @"CLR1.gz";
-                args[0] = @"decompress";
-                args[1] = @"CLR1.gz";
-                args[2] = @"CLR2.pdf";
-
-
                 Validation.StringReadValidation(args);
 
                 switch (args[0].ToLower())
